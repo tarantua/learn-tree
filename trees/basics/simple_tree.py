@@ -1,8 +1,7 @@
-class TreeNode:
-    def __init__(self,val):
-        self.data = val
-        self.left = None
-        self.right = None
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from tree_node import TreeNode
 
 #Create a root 
 root = TreeNode(1)
